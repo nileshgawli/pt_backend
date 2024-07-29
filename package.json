@@ -1,0 +1,28 @@
+{
+  "name": "plantit",
+  "version": "1.0.0",
+  "description": "The backend server for the project of PlantIT, it has routes for managing product sales and Google Gemini integration for AI related suggestions and predictions.",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PlantIT",
+    "Gemini",
+    "AI",
+    "Siddhartha",
+    "Mukherjee"
+  ],
+  "author": "Siddhartha Mukherjee",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "firebase": "^10.8.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0"
+  }
+}
